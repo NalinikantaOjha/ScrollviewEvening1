@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <TextView
+      style="@style/textview1"
+        android:text="@string/Shedule_meating"/>
+</RelativeLayout>
+    <TextView
+        style="@style/textview2"
+        android:text="Name">
+
+    </TextView>
+    <EditText
+        style="@style/edittext2"
+        android:hint="Nrupul Dev"
+        >
+
+    </EditText>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/ed1"
+            style="@style/edittext1"
+            android:hint="Tue - 22 December 2020"
+            >
+        </EditText>
+
+        <EditText
+            android:layout_alignRight="@+id/ed1"
+            style="@style/edittext1"
+            android:layout_alignParentRight="true"
+            android:hint="Tue "
+            >
+        </EditText>
+    </RelativeLayout>
+    <TextView
+       style="@style/textview2"
+        android:layout_marginTop="20dp"
+        android:text="people to invite">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/et1"
+           style="@style/edittext2"
+            android:hint="Prateek"
+
+           >
+
+        </EditText>
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/r1">
+        <View
+            android:id="@+id/v1"
+           style="@style/view1"
+            android:background="@drawable/prateeksuklanow"
+            >
+
+        </View>
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100"
+        android:layout_marginRight="@dimen/dp_200"
+            android:layout_alignParentRight="true">
+
+
+            <View
+                style="@style/view1"
+
+                android:background="@drawable/feffbezosnow">
+
+            </View>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <EditText
+
+        style="@style/edittext2"
+        >
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            style="@style/view2"
+            android:background="@drawable/prateeksuklanow">
+
+        </View>
+        <TextView
+
+            style="@style/textview1"
+            android:text="prateek sukla"
+            android:drawableRight="@drawable/ic_vector__2_"
+            android:layout_gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            style="@style/textview1"
+            android:text="prateeksukla@"
+            android:textSize="10dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            style="@style/view2"
+            android:background="@drawable/feffbezosnow">
+
+        </View>
+        <TextView
+
+            style="@style/textview1"
+            android:text="Jeff bejos"
+
+
+            android:layout_gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            style="@style/textview1"
+            android:text="prateeksukla@"
+            android:textSize="10dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+       style="@style/textview2"
+        android:text="Notify people on slack"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/ic_group"
+        >
+
+    </TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="match_parent"
+        android:text="Crate Meating"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        >
+
+    </Button>
+    </RelativeLayout>
+</LinearLayout>
